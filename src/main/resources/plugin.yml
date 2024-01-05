@@ -1,0 +1,4 @@
+name: HikeBans
+version: '${project.version}'
+main: pl.xgabriel.hikebans.Main
+api-version: '1.18'

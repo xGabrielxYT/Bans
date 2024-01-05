@@ -1,0 +1,35 @@
+Broadcast:
+  # @nick - Nick zbanowanego
+  # @admin - Nick admina
+  # @powod - Powod bana
+  # @czas - czas bana
+  permBroadcast: true
+  PERM: '&cGracz @nick został ukarany za cheaty lub złamanie regulaminu. &bDziękujemy za zgłoszenia'
+  tempBroadcast: true
+  TEMP: '&cGracz @nick został ukarany za cheaty lub złamanie regulaminu. &bDziękujemy za zgłoszenia'
+  unbanBroadcast: true
+  UnBan: '&cGracz @nick został odbanowany. &bPamiętajcie o przestrzeganiu regulaminu'
+
+
+
+Messages:
+  permBan: "&aZbanowałeś gracza @nick na zawsze za @powod"
+  tempBan: "&cZbanowałes tymczasowo @nick na @czas za @powod"
+  unBan: "&aOdbanowałes @nick"
+  banOffline: "&cZbanowano gracza offline!"
+  discord: "https://dc.hikemc.eu"
+
+
+Login:
+  PERM:
+  - '&cUpss...'
+  - '&c'
+  - '&cTrafiłeś na czarną liste przez @admin'
+  - '&7Powod&8: &c@powod'
+  - '&7Jeśli ban jest niesłuszny odwołaj się na &edc.hikemc.eu'
+  TEMP:
+    - '&cUpss...'
+    - '&c'
+    - '&cZostałeś zbanowany na @czas przez @admin'
+    - '&7Powod&8: &c@powod'
+    - '&7Jeśli ban jest niesłuszny odwołaj się na &edc.hikemc.eu'
